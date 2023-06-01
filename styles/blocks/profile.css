@@ -10,6 +10,10 @@
     background-color: var(--accent-color);
 }
 
+.profile__photo {
+    width: 100%;
+}
+
 .profile__name {
     margin: 0;
     font-family: "Redcollar";
