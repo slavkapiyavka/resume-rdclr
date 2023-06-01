@@ -2,4 +2,7 @@
 @import "/styles/variables.css";
 @import "/styles/base.css";
 @import "/styles/layout.css";
-@import "/styles/elements/main-logo.css"
+@import "/styles/elements/main-logo.css";
+@import "/styles/blocks/profile.css";
+@import "/styles/blocks/contacts-list.css";
+@import "/styles/curve.css";
