@@ -1,0 +1,6 @@
+:root {
+    --black-color: rgb(0 0 0 / 100%);
+    --white-color: rgb(255 255 255 / 100%);
+    --white-semi-transparent-color: rgb(255 255 255 / 40%);
+    --accent-color: rgb(245 27 27 / 100%);
+}
