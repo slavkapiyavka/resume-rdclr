@@ -1,9 +1,27 @@
 :root {
-    --black-color: rgba(0, 0, 0, 1);
-    --white-color: rgba(255, 255, 255, 1);
-    --white-semi-transparent-color: rgba(255, 255, 255, 0.4);
-    --accent-color: rgba(245, 27, 27, 1);
+    --black-color: rgb(0 0 0 / 100%);
+    --white-color: rgb(255 255 255 / 100%);
+    --white-semi-transparent-color: rgb(255 255 255 / 40%);
+    --accent-color: rgb(245 27 27 / 100%);
 }
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
+    font-family: -apple-system, system-ui;
     background-color: var(--black-color);
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+img,
+svg,
+video {
+    display: block;
+    max-width: 100%;
 }
