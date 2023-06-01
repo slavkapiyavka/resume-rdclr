@@ -25,6 +25,7 @@ body {
 main {
     width: min(1440px, 100% - 40px);
     margin-inline: auto;
+    padding: 20px 0;
 }
 
 img,
