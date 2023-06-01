@@ -1,3 +1,9 @@
+:root {
+    --black-color: rgba(0, 0, 0, 1);
+    --white-color: rgba(255, 255, 255, 1);
+    --white-semi-transparent-color: rgba(255, 255, 255, 0.4);
+    --accent-color: rgba(245, 27, 27, 1);
+}
 body {
-    background-color: rebeccapurple;
+    background-color: var(--black-color);
 }
