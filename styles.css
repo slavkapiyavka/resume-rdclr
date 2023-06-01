@@ -1,3 +1,5 @@
+@import "fonts/fonts.css";
+
 :root {
     --black-color: rgb(0 0 0 / 100%);
     --white-color: rgb(255 255 255 / 100%);
@@ -13,10 +15,12 @@
 
 body {
     margin: 0;
-    font-family: -apple-system, system-ui;
+    /* font-family: -apple-system, system-ui; */
+    font-family: "RedCollar", Courier, monospace;
     background-color: var(--black-color);
     font-size: 1.125rem;
     line-height: 1.5;
+    color: var(--white-color);
 }
 
 img,
