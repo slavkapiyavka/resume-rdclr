@@ -54,12 +54,14 @@
     transition: color 75ms;
 }
 
-.diploma-link:hover {
+.diploma-link:hover,
+.diploma-link:focus-visible {
     text-decoration: underline;
     color: var(--white-color);
 }
 
-.job-link:hover {
+.job-link:hover,
+.job-link:focus-visible {
     text-decoration: underline;
 }
 
