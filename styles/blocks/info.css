@@ -42,15 +42,25 @@
     margin: 0;
 }
 
-.diploma {
+.diploma-link {
     color: var(--white-semi-transparent-color);
     text-decoration: none;
     transition: color 75ms;
 }
 
-.diploma:hover {
+.job-link {
+    color: var(--white-color);
+    text-decoration: none;
+    transition: color 75ms;
+}
+
+.diploma-link:hover {
     text-decoration: underline;
     color: var(--white-color);
+}
+
+.job-link:hover {
+    text-decoration: underline;
 }
 
 .skills-list {
