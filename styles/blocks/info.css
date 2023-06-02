@@ -12,6 +12,10 @@
     margin: 0 0 16px 0;
 }
 
+.info-list {
+    margin: 0 0 24px 0;
+}
+
 .info-list__title {
     font-family: "TT Commons";
     font-style: normal;
@@ -42,8 +46,8 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 16px;
-    margin: 0;
+    gap: 4px 16px;
+    margin: 0 0 24px 0;
     padding: 0;
     list-style: none;
 }
