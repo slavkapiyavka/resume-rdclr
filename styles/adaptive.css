@@ -1,4 +1,4 @@
-@media (width >= 680px) {
+@media (width >= 840px) {
     .main {
         grid-template-columns: 0.7fr 1fr;
         gap: 0 28px;
@@ -17,6 +17,21 @@
         margin-bottom: 0;
     }
 
+    .profile__name {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .profile__info {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .contacts-list__link {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
     .intro {
         display: flex;
         flex-direction: column;
@@ -25,10 +40,42 @@
     }
 
     .intro__text {
+        font-size: 18px;
+        line-height: 24px;
         padding-top: 18px;
+        margin: 0 0 32px 0;
     }
 
     .about {
         flex: 1;
+        padding: 48px 50px 0 28px;
+    }
+
+    .info:not(:last-of-type) {
+        margin-bottom: 20px;
+    }
+
+    .info-list {
+        margin: 0 0 20px 0;
+    }
+
+    .info-list__title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .info-list__description {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 8px 0;
+    }
+
+    .skills-list {
+        gap: 8px 32px;
+    }
+
+    .skills-list__skill {
+        font-size: 18px;
+        line-height: 24px;
     }
 }
