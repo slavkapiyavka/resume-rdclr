@@ -19,6 +19,12 @@
         margin-bottom: 0;
     }
 
+    .photo-wrapper::after {
+        margin-top: max(-7vw, -120px);
+        margin-left: -2px;
+        width: min(20vw, 360px);
+    }
+
     .profile__name {
         font-size: 24px;
         line-height: 28px;
