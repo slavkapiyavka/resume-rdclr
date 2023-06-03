@@ -37,6 +37,15 @@
     background-color: var(--accent-color);
 }
 
+.profile-about::after {
+    content: url("/assets/arrow-red.svg");
+    position: absolute;
+    top: -18.5px;
+    left: 0;
+    translate: -50% 0;
+    margin-left: 50%;
+}
+
 .profile__name {
     margin: 0;
     font-family: "Redcollar";

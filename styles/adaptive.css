@@ -59,6 +59,12 @@
         padding: 48px 50px 0 28px;
     }
 
+    .about:after {
+        left: unset;
+        translate: 0;
+        margin-left: 0;
+    }
+
     .info:not(:last-of-type) {
         margin-bottom: 20px;
     }
