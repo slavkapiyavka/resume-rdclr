@@ -5,7 +5,7 @@
 }
 
 .about::after {
-    content: url("/assets/arrow.svg");
+    content: url("../../assets/arrow.svg");
     position: absolute;
     top: -1px;
     left: 0;

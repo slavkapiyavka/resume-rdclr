@@ -10,7 +10,7 @@
 
 .photo-wrapper:after {
     content: "";
-    background-image: url("/assets/eyes-mask.svg");
+    background-image: url("../../assets/eyes-mask.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@
 }
 
 .profile-about::after {
-    content: url("/assets/arrow-red.svg");
+    content: url("../../assets/arrow-red.svg");
     position: absolute;
     top: -18.5px;
     left: 0;
