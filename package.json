@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "lint:css": "stylelint './**/*.css'",
+    "lint:fix:css": "stylelint --fix './**/*.css'"
+  },
+  "devDependencies": {
+    "stylelint": "15.6.3",
+    "stylelint-config-htmlacademy": "1.1.4",
+    "stylelint-config-standard": "33.0.0"
+  }
+}
