@@ -1,67 +1,67 @@
 .profile {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .photo-wrapper {
-    position: relative;
-    display: grid;
-    place-items: center;
+  position: relative;
+  display: grid;
+  place-items: center;
 }
 
-.photo-wrapper:after {
-    content: "";
-    background-image: url("../../assets/eyes-mask.svg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 48vw;
-    margin-top: -18vw;
-    margin-left: -6px;
-    aspect-ratio: 2 / 1;
-    rotate: 7deg;
-    grid-row: 1 / -1;
-    grid-column: 1 / -1;
+.photo-wrapper::after {
+  content: "";
+  background-image: url("../../assets/eyes-mask.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 48vw;
+  margin-top: -18vw;
+  margin-left: -6px;
+  aspect-ratio: 2 / 1;
+  rotate: 7deg;
+  grid-row: 1 / -1;
+  grid-column: 1 / -1;
 }
 
 .profile__photo {
-    width: 100%;
-    grid-row: 1 / -1;
-    grid-column: 1 / -1;
+  width: 100%;
+  grid-row: 1 / -1;
+  grid-column: 1 / -1;
 }
 
 .profile-about {
-    position: relative;
-    padding: 24px 16px 40px;
-    border-radius: 20px 20px 0 0;
-    margin-top: -29px;
-    background-color: var(--accent-color);
+  position: relative;
+  padding: 24px 16px 40px;
+  border-radius: 20px 20px 0 0;
+  margin-top: -29px;
+  background-color: var(--accent-color);
 }
 
 .profile-about::after {
-    content: url("../../assets/arrow-red.svg");
-    position: absolute;
-    top: -18.5px;
-    left: 0;
-    translate: -50% 0;
-    margin-left: 50%;
+  content: url("../../assets/arrow-red.svg");
+  position: absolute;
+  top: -18.5px;
+  left: 0;
+  translate: -50% 0;
+  margin-left: 50%;
 }
 
 .profile__name {
-    margin: 0;
-    font-family: "Redcollar";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: -0.02em;
+  margin: 0;
+  font-family: "Redcollar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
 }
 
 .profile__info {
-    margin: 0 0 32px 0;
-    font-family: "TT Commons";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: -0.02em;
+  margin: 0 0 32px 0;
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
 }

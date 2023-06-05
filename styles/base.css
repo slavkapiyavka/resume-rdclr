@@ -1,28 +1,28 @@
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: "RedCollar", -apple-system, system-ui;
-    background-color: var(--black-color);
-    font-size: 1.125rem;
-    line-height: 1.5;
-    color: var(--white-color);
+  margin: 0;
+  font-family: "RedCollar", -apple-system, system-ui;
+  background-color: var(--black-color);
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: var(--white-color);
 }
 
 .main {
-    width: min(1440px, 100% - 40px);
-    margin-inline: auto;
-    padding: 20px 0 60px;
+  width: min(1440px, 100% - 40px);
+  margin-inline: auto;
+  padding: 20px 0 60px;
 }
 
 img,
 svg,
 video {
-    display: block;
-    height: auto;
-    max-width: 100%;
+  display: block;
+  height: auto;
+  max-width: 100%;
 }

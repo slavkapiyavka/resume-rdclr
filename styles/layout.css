@@ -1,5 +1,5 @@
 .main {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
 }
