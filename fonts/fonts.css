@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "RedCollar";
+  font-family: "RedCollar", sans-serif;
   src: url("Redcollar.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "TT Commons";
+  font-family: "TT Commons", sans-serif;
   src: url("TTCommons-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
